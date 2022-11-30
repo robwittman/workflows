@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: HelmRelease
+spec:
+  chart: {}
+values:
+  image:
+    tag: v1.0.0
