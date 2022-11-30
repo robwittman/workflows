@@ -1,7 +1,9 @@
 apiVersion: v1
 kind: HelmRelease
 spec:
-  chart: {}
+  chart:
+    version: 1.0.0
 values:
   image:
     tag: v1.2.0
+  some_other_key: some_other_value
