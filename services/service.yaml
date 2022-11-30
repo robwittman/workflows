@@ -7,3 +7,4 @@ values:
   image:
     tag: v1.2.0
   some_other_key: some_other_value
+  key_dependent_on_1_2_0:  cool values bro
